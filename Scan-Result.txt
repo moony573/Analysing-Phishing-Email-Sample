@@ -1,0 +1,83 @@
+============================================================
+Task 2: Analyse a Phishing Email Sample - SCAN RESULTS
+============================================================
+
+Report Summary:
+---------------
+This file contains sanitized technical scan results and metadata 
+collected from the analysis of a suspicious email received during 
+a cybersecurity research task. All personally identifiable 
+information (PII) and private recipient details have been removed.
+
+------------------------------------------------------------
+1. Email Metadata Summary
+------------------------------------------------------------
+
+Subject       : Data entry work.
+From          : scriptentryteam1@gmail.com
+Display Name  : Script Entry
+Sent Time     : July 29, 2025, 04:56 PM IST
+Message ID    : [REDACTED for Privacy]
+Delivery Time : Delivered after approx. 13 seconds
+Recipients    : 18+ addresses (sanitized for privacy)
+
+------------------------------------------------------------
+2. Authentication Results (Extracted via Google Admin Toolbox)
+------------------------------------------------------------
+
+SPF Result     : PASS (IP authenticated)
+DKIM Result    : PASS (Signed by gmail.com)
+DMARC Result   : PASS (Aligned)
+Mailed-by      : gmail.com
+Signed-by      : gmail.com
+
+------------------------------------------------------------
+3. Mail Routing Path (SMTP Trace)
+------------------------------------------------------------
+
+Hop 0: Internal routing completed in ~12 sec
+Hop 1: mail-sor-f41.google.com → mx.google.com
+Hop 2: IP hop through internal Google IPv6 relay servers
+Final Destination: Delivered via Google's standard infrastructure
+
+Note: All mail servers involved belong to Google LLC (AS15169)
+
+------------------------------------------------------------
+4. IP Address Information (Sanitized)
+------------------------------------------------------------
+
+Source IP       : 209.85.220.41
+Location        : Mountain View, California, United States
+Organization    : Google LLC (AS15169)
+IP Type         : IPv4, Direct Allocation
+WHOIS Source    : whois.arin.net
+NetRange        : 209.85.128.0 - 209.85.255.255
+Abuse Contact   : https://www.google.com/contact/
+
+------------------------------------------------------------
+5. Attachments / Links
+------------------------------------------------------------
+
+Attachments : None
+Links       : None
+Other       : Included a phone number for WhatsApp redirection 
+              (sanitized in public report)
+
+------------------------------------------------------------
+6. Tools Used
+------------------------------------------------------------
+
+- Google Admin Toolbox Message Header Analyzer
+- WHOIS Lookup (Domaintools / ARIN)
+- Manual inspection (content and tone analysis)
+
+------------------------------------------------------------
+Disclaimer:
+------------------------------------------------------------
+
+This scan-result file is shared for **educational and awareness 
+purposes only**. No actual user data is exposed. Do not engage 
+with suspicious emails or unknown contact methods without proper 
+verification.
+
+© 2025 | Cybersecurity Educational Project | All rights reserved.
